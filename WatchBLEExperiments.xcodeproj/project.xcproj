@@ -56,7 +56,7 @@
         "INFOPLIST_KEY_UILaunchScreen_Generation": "YES",
         "INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad": "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight",
         "INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone": "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight",
-        "IPHONEOS_DEPLOYMENT_TARGET": "27.2",
+        "IPHONEOS_DEPLOYMENT_TARGET": "17.0",
         "LD_RUNPATH_SEARCH_PATHS": [
           "$(inherited)",
           "@executable_path/Frameworks",
@@ -93,6 +93,7 @@
         "ENABLE_PREVIEWS": "YES",
         "GENERATE_INFOPLIST_FILE": "YES",
         "INFOPLIST_KEY_CFBundleDisplayName": "WatchBLEExperiments",
+        "INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription": "Scans for a selected Bluetooth service to measure discovery callback frequency.",
         "INFOPLIST_KEY_UISupportedInterfaceOrientations": "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown",
         "INFOPLIST_KEY_WKCompanionAppBundleIdentifier": "com.skidata.mfc.WatchBLEExperiments",
         "LD_RUNPATH_SEARCH_PATHS": [
@@ -112,7 +113,7 @@
         "SWIFT_VERSION": "5.0",
         "TARGETED_DEVICE_FAMILY": "4",
         "VALIDATE_PRODUCT[config=Release]": "YES",
-        "WATCHOS_DEPLOYMENT_TARGET": "27.2",
+        "WATCHOS_DEPLOYMENT_TARGET": "10.0",
       },
     },
   ],
